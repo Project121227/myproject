@@ -18,4 +18,8 @@ export class UserService {
     findall(): Observable<User[]>{
         return from ( this.userRepository.find());
     }
+
+    getHello(): string {
+        return 'Hell0';
+      }
 }

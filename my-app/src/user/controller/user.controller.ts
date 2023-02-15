@@ -20,4 +20,9 @@ export class UserController {
         return from(this.userService.findall());
 
      }
+
+     @Get()
+     getHello(): string {
+       return this.userService.getHello();
+     }
 }
