@@ -20,6 +20,6 @@ export class UserService {
     }
 
     getHello(): string {
-        return 'Hell0';
+        return 'Helloworld';
       }
 }
